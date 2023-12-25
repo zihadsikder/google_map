@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Real time location tracker'),
       ),
       body: GoogleMap(
         initialCameraPosition: CameraPosition(
